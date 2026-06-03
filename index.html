@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasmiha Islam Maria Dewan | Official Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        slate: {
+                            850: '#151e2e',
+                            900: '#0f172a',
+                        },
+                        roseGold: {
+                            light: '#fce7f3',
+                            DEFAULT: '#fda4af',
+                            dark: '#e11d48',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-50 font-sans antialiased selection:bg-roseGold-dark selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full top-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-serif text-xl font-bold tracking-wide">Tasmiha<span class="text-roseGold italic font-normal">Dewan</span></span>
+            <div class="hidden md:flex gap-8 text-sm font-medium text-slate-300">
+                <a href="#about" class="hover:text-roseGold transition-colors">About</a>
+                <a href="#journey" class="hover:text-roseGold transition-colors">Journey</a>
+                <a href="#hubs" class="hover:text-roseGold transition-colors">My Repositories</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden border-b border-slate-800">
+        <div class="absolute top-0 right-0 -mr-32 -mt-32 w-96 h-96 rounded-full bg-roseGold-dark/10 blur-3xl"></div>
+        <div class="max-w-6xl mx-auto px-6 relative z-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-roseGold/10 text-roseGold text-xs font-bold tracking-widest uppercase mb-6 border border-roseGold/20">
+                Scholar & Educator
+            </span>
+            <h1 class="text-5xl md:text-8xl font-serif font-bold leading-tight mb-6 text-white">
+                Designing the future <br>
+                <span class="text-slate-400 italic font-normal">of digital literacy.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed mb-10">
+                An independent scholar bridging classical English Literature with modern pedagogical practices. Dedicated to self-reliance, cross-cultural communication, and leading the next generation of global learners.
+            </p>
+            <div class="flex gap-4">
+                <a href="#journey" class="bg-roseGold text-slate-900 px-6 py-3 rounded-lg font-semibold hover:bg-roseGold-light transition-colors shadow-lg shadow-roseGold/20">
+                    Explore My Journey
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Repositories / Ecosystem Section -->
+    <section id="hubs" class="py-24 bg-slate-850 border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-serif font-bold mb-12 flex items-center gap-3">
+                <i data-feather="grid" class="text-roseGold"></i> Digital Ecosystem
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Link to your 2nd Repo -->
+                <a href="LINK_TO_YOUR_EDUCATOR_HUB" class="group block p-8 rounded-2xl bg-slate-900 border border-slate-700 hover:border-roseGold/50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-teal-900/30 flex items-center justify-center text-teal-400 mb-6">
+                        <i data-feather="book-open"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 group-hover:text-roseGold transition-colors">The Educator Hub</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">My digital pedagogy archive containing active lesson plans, syntax modules, and classroom strategies for Classes IV-VIII.</p>
+                </a>
+
+                <!-- Link to your 3rd Repo -->
+                <a href="LINK_TO_YOUR_SCHOLAR_ARCHIVE" class="group block p-8 rounded-2xl bg-slate-900 border border-slate-700 hover:border-roseGold/50 transition-all duration-300">
+                    <div class="w-12 h-12 rounded-full bg-red-900/30 flex items-center justify-center text-red-400 mb-6">
+                        <i data-feather="feather"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 group-hover:text-roseGold transition-colors">The Literary Archive</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">A public repository of my academic research, essays, and critical analysis intersecting classic texts with modern media.</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Infinite Journey / Timeline Section -->
+    <section id="journey" class="py-24 max-w-4xl mx-auto px-6">
+        <h2 class="text-3xl font-serif font-bold mb-16 flex items-center gap-3">
+            <i data-feather="map" class="text-roseGold"></i> Professional Timeline
+        </h2>
+
+        <div class="relative border-l border-slate-700 ml-4 space-y-12">
+
+            <!-- TO ADD A NEW TIMELINE EVENT, COPY FROM HERE... -->
+            <div class="relative pl-8">
+                <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-roseGold border-4 border-slate-900"></div>
+                <div class="text-xs font-bold text-roseGold tracking-widest uppercase mb-2">October 2024 – Present</div>
+                <h3 class="text-2xl font-bold text-white mb-2">English Language Lead (IV-VIII)</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Elevated to handle advanced syntax and literary structures for mid-level students. Actively implementing digital storytelling methodologies into traditional curricula to bridge early language gaps.
+                </p>
+            </div>
+            <!-- ...TO HERE -->
+
+            <!-- Timeline Event 2 -->
+            <div class="relative pl-8">
+                <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-900"></div>
+                <div class="text-xs font-bold text-slate-500 tracking-widest uppercase mb-2">Session 2023 – 2024</div>
+                <h3 class="text-2xl font-bold text-white mb-2">Undergraduate Studies Commenced</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Embarked on a BA (Honors) in English Literature as a self-funded scholar. Navigated highly competitive admission environments with strict autodidactic preparation, cultivating immense personal resilience.
+                </p>
+            </div>
+
+            <!-- Timeline Event 3 -->
+            <div class="relative pl-8">
+                <div class="absolute -left-2 top-1.5 w-4 h-4 rounded-full bg-slate-600 border-4 border-slate-900"></div>
+                <div class="text-xs font-bold text-slate-500 tracking-widest uppercase mb-2">May 2023</div>
+                <h3 class="text-2xl font-bold text-white mb-2">Early Childhood Educator</h3>
+                <p class="text-slate-400 leading-relaxed">
+                    Secured a formal teaching appointment following rigorous competitive examinations. Handled foundational phonetics and linguistics for early learners, establishing a lifelong passion for pedagogical impact.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 py-12 border-t border-slate-800 text-center">
+        <p class="text-slate-500 text-sm font-medium">
+            &copy; 2026 Tasmiha Islam Maria Dewan. Built with resilience and raw code.
+        </p>
+    </footer>
+
+    <script>feather.replace();</script>
+</body>
+</html>
